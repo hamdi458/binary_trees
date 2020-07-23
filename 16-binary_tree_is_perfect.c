@@ -79,7 +79,7 @@ size_t binary_tree_height(const binary_tree_t *tree)
 }
 
 /**
- * tree_perfect - checks if the leaves are at the same level, full and the depth is equal to tree height
+ * tree_perfect - check leaves in same level full the depth is equal to height
  * @tree: a pointer to the root node of the tree to check
  * @tree_height: tree height
  * Return: 1 if perfect, 0 if not
