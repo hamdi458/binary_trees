@@ -19,6 +19,7 @@ typedef struct binary_tree_s
 	struct binary_tree_s *left;
 	struct binary_tree_s *right;
 } binary_tree_t;
+binary_tree_t *binary_tree_rotate_right(binary_tree_t *tree);
 binary_tree_t *binary_tree_rotate_left(binary_tree_t *tree);
 void binary_tree_print(const binary_tree_t *);
 size_t binary_tree_depth(const binary_tree_t *tree);
